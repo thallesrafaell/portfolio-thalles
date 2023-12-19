@@ -35,4 +35,5 @@ export const Span = styled.span`
 export const P = styled.p`
   font-size: 18px;
   margin: 20px 0 60px;
+  color: ${Cores.cinzaClaro};
 `
