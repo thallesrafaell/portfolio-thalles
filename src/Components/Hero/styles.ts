@@ -5,8 +5,7 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5.6vw 0;
-  height: calc(100vh - 70px - 60px);
+  height: calc(97vh - 70px - 60px);
 
   > img {
     width: 300px;

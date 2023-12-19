@@ -20,6 +20,7 @@ export const GlobalCSS = createGlobalStyle`
   body {
     background-color: ${Cores.cinzaEscuro};
     color: ${Cores.branco};
+    overflow-y: hidden;
 
     .container {
       max-width: 1140px;
