@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const Cores = {
   azul: '#2B53E0',
@@ -20,12 +20,44 @@ export const GlobalCSS = createGlobalStyle`
   body {
     background-color: ${Cores.cinzaEscuro};
     color: ${Cores.branco};
-    overflow-y: hidden;
 
     .container {
       max-width: 1140px;
       width: 100%;
       margin: 0 auto;
     }
+  }
+`
+
+export const Button = styled.button`
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  max-widht: 158px;
+  height: 44px;
+  padding: 12px 28px;
+  background-color: ${Cores.azul};
+  color: ${Cores.branco};
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition-duration: 0.5s;
+
+  &:hover {
+    background-color: ${Cores.cinzaEscuro};
+    color: ${Cores.branco};
+    border-color: ${Cores.azul};
+    transition-duration: 0.5s;
+  }
+`
+
+export const ButtonCinza = styled(Button)`
+  background-color: ${Cores.cinzaEscuro};
+  border-color: ${Cores.cinzaClaro};
+
+  &:hover {
+    background-color: ${Cores.cinzaClaro};
+    border-color: ${Cores.cinzaClaro};
   }
 `

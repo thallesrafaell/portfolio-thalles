@@ -5,11 +5,10 @@ export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: calc(97vh - 70px - 60px);
+  height: calc(100vh - 70px);
 
   > img {
-    width: 300px;
-    height: 256px;
+    width: 500px;
   }
 `
 export const Details = styled.div`
@@ -31,36 +30,5 @@ export const Details = styled.div`
     align-items: center;
     justify-content: center;
     column-gap: 16px;
-  }
-`
-
-export const Button = styled.button`
-  max-widht: 158px;
-  height: 44px;
-  padding: 12px 28px;
-  background-color: ${Cores.azul};
-  color: ${Cores.cinzaEscuro};
-  border: 1px solid transparent;
-  font-size: 14px;
-  font-weight: 500;
-  transition-duration: 0.5s;
-
-  &:hover {
-    background-color: ${Cores.cinzaEscuro};
-    color: ${Cores.branco};
-    border-color: ${Cores.azul};
-    transition-duration: 0.5s;
-  }
-`
-
-export const ButtonContato = styled(Button)`
-  background-color: ${Cores.cinzaEscuro};
-  color: ${Cores.branco};
-  border-color: ${Cores.cinzaClaro};
-
-  &:hover {
-    background-color: ${Cores.cinzaClaro};
-    color: ${Cores.cinzaEscuro};
-    border-color: ${Cores.cinzaClaro};
   }
 `
