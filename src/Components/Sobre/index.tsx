@@ -12,11 +12,11 @@ const Sobre = () => {
         <h2>Sobre Mim</h2>
         <Span>Santa Viória, Minas Gerais</Span>
         <P>
-          Apaixonado por tecnologia desde os 14 anos, trilho meu caminho como
-          programador Full-stack em Java. Cada linha de código é uma jornada, e
-          cada desafio é uma oportunidade para aprender e crescer. Comprometido
-          com a excelência, busco constantemente inovar, buscando cada vez mais
-          conhecimento.
+          Apaixonado por tecnologia desde os 14 anos. Atualmente trilho meu
+          caminho como programador Full-stack em Java. Cada linha de código é
+          uma jornada, e cada desafio é uma oportunidade para aprender e
+          crescer. Comprometido com a excelência, busco constantemente inovar,
+          buscando cada vez mais conhecimento.
         </P>
         <div>
           <Button>
