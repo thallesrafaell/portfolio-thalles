@@ -3,7 +3,7 @@ import { HeaderContent, Menu } from './styles'
 const Header = () => {
   return (
     <HeaderContent className="container">
-      <h2>Portifolio</h2>
+      <h2>Portfólio</h2>
       <nav>
         <Menu>
           <li>Sobre mim</li>
