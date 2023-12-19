@@ -24,7 +24,7 @@ export const Card = styled.div`
   }
 
   &:hover {
-    box-shadow: 10px 12px 13px -8px rgba(43, 83, 224, 0.69);
+    box-shadow: 0px 0px 17px 2px rgba(43, 83, 224, 0.69);
     transition-duration: 0.4s;
   }
 `

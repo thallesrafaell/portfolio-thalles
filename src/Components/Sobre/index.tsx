@@ -15,8 +15,8 @@ const Sobre = () => {
           Apaixonado por tecnologia desde os 14 anos, trilho meu caminho como
           programador Full-stack em Java. Cada linha de código é uma jornada, e
           cada desafio é uma oportunidade para aprender e crescer. Comprometido
-          com a excelência, busco constantemente inovar e contribuir para o
-          avanço da tecnologia.
+          com a excelência, busco constantemente inovar, buscando cada vez mais
+          conhecimento.
         </P>
         <div>
           <Button>
