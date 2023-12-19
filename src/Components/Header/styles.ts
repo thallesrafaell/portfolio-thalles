@@ -1,13 +1,17 @@
 import styled from 'styled-components'
 import { Cores } from '../../styles'
 
-export const HeaderContent = styled.header`
+export const HeaderBg = styled.div`
   position: sticky;
   top: 0;
+  background-color: ${Cores.cinzaEscuro};
+`
+
+export const HeaderContent = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 35px 0;
+  padding: 35px 0 20px;
 
   h2 {
     font-size: 26px;
