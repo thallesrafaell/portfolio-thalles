@@ -1,4 +1,3 @@
-import { cp } from 'fs'
 import { createGlobalStyle } from 'styled-components'
 
 export const Cores = {

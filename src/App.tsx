@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './Components/Header'
 import { GlobalCSS } from './styles'
+import Hero from './Components/Hero'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <>
         <GlobalCSS />
         <Header />
+        <Hero />
       </>
     </div>
   )

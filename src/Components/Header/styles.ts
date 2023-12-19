@@ -5,7 +5,7 @@ export const HeaderContent = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 35px;
+  padding: 35px 0;
 
   h2 {
     font-size: 26px;
