@@ -7,6 +7,8 @@ export const SobreContent = styled.div`
   padding: 100px 0;
 
   > img {
+    width: 385px;
+    height: 385px;
     margin-right: 80px;
     border-left: 4px solid ${Cores.azul};
     border-radius: 4px;

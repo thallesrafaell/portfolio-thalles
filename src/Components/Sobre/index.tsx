@@ -2,12 +2,12 @@ import download from '../../assets/images/download.png'
 import mail from '../../assets/images/mail.png'
 import { Button, ButtonCinza } from '../../styles'
 import { Details, P, SobreContent, Span } from './styles'
+import perfil from '../../assets/images/perfil.png'
 
 const Sobre = () => {
-  const foto = 'https://via.placeholder.com/385x385.png'
   return (
     <SobreContent className="container">
-      <img src={foto} alt="foto Thalles" />
+      <img src={perfil} alt="foto Thalles" />
       <Details>
         <h2>Sobre Mim</h2>
         <Span>Santa Viória, Minas Gerais</Span>
