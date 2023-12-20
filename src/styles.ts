@@ -15,7 +15,12 @@ export const GlobalCSS = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'DM Sans', sans-serif;
     list-style: none;
+    text-decoration: none;
   }
+
+  html {
+    scroll-behavior: smooth;
+    }
 
   body {
     background-color: ${Cores.cinzaEscuro};
@@ -29,7 +34,7 @@ export const GlobalCSS = createGlobalStyle`
   }
 `
 
-export const Button = styled.button`
+export const Button = styled.a`
   display: flex;
   align-items: center;
   column-gap: 16px;

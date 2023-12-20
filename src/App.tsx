@@ -6,19 +6,16 @@ import Footer from './Components/Footer'
 import Sobre from './Components/Sobre'
 import Projetos from './Containers/Projetos/Index'
 import Skill from './Components/MinhasSkill'
+import { BrowserRouter } from 'react-router-dom'
+import Rotas from './routes'
 
 function App() {
   return (
     <div className="App">
-      <>
+      <BrowserRouter>
         <GlobalCSS />
-        <Header />
-        <Hero />
-        <Sobre />
-        <Skill />
-        <Projetos />
-        <Footer />
-      </>
+        <Rotas />
+      </BrowserRouter>
     </div>
   )
 }

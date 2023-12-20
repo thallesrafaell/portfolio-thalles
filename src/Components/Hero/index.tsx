@@ -11,11 +11,19 @@ const Hero = () => {
         <h1>Olá, sou Thalles Rafael</h1>
         <p>Desenvolvedor Full-Stack Java</p>
         <div>
-          <Button>
+          <Button
+            href="https://linkedin.com/in/thallesrafael"
+            title="Meu linkedin"
+            target="_blank"
+          >
             <img src={linkedin} alt="incone linkedin" />
             Linkedin
           </Button>
-          <ButtonCinza>
+          <ButtonCinza
+            href="https://github.com/thallesrafaell"
+            title="Meu Github"
+            target="_blank"
+          >
             <img src={github} alt="incone github" />
             GitHub
           </ButtonCinza>

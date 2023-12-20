@@ -16,6 +16,11 @@ export const HeaderContent = styled.header`
   h2 {
     font-size: 26px;
     font-weight: bold;
+    color: ${Cores.azul};
+
+    span {
+      color: ${Cores.branco};
+    }
   }
 `
 
@@ -28,9 +33,29 @@ export const Menu = styled.ul`
     font-size: 18px;
     transition-duration: 0.4s;
 
-    &:hover {
-      color: ${Cores.cinzaClaro};
+    a,
+    a.active {
+      font-size: 18px;
       transition-duration: 0.4s;
+      color: ${Cores.branco};
+
+      &:hover {
+        color: ${Cores.azul};
+        transition-duration: 0.4s;
+      }
+    }
+  }
+`
+export const Redes = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+
+  a {
+    img {
+      widht: 24px;
+      height: 24px;
     }
   }
 `

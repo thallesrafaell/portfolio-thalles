@@ -12,21 +12,21 @@ const Footer = () => {
           &copy;2023 - Desenvolvido por <span>Thalles Rafael</span>
         </p>
         <MinhasRedes className="minhasredes">
-          <p>
-            <img src={linkedin} alt="" /> Linkedin
-          </p>
-          <p>
+          <a href="https://linkedin.com/in/thallesrafael">
+            <img src={linkedin} alt="Linkedin" /> Linkedin
+          </a>
+          <a href="https://github.com/thallesrafaell">
             <img src={github} alt="" />
             Github
-          </p>
-          <p>
-            <img src={whats} alt="" />
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5534997653710">
+            <img src={whats} alt="Whatsapp" />
             Whatsapp
-          </p>
-          <p>
-            <img src={mail} alt="" />
+          </a>
+          <a href="mailto:thallesrafaell@outlook.com">
+            <img src={mail} alt="E-mail" />
             E-mail
-          </p>
+          </a>
         </MinhasRedes>
       </div>
     </FooterBackground>

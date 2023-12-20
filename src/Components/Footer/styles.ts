@@ -27,10 +27,11 @@ export const MinhasRedes = styled.div`
   display: flex;
   align-items: center;
   gap: 20px;
-  p {
+  a {
     display: flex;
     align-items: center;
     gap: 5px;
+    color: ${Cores.branco};
   }
 
   img {
