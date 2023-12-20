@@ -11,6 +11,7 @@ import css from '../../assets/images/css.svg'
 import html from '../../assets/images/html.svg'
 import react from '../../assets/images/react.svg'
 import js from '../../assets/images/javascript.svg'
+import { Element } from 'react-scroll'
 
 const Projetos = () => {
   const ProjetosList: Project[] = [
@@ -91,23 +92,27 @@ const Projetos = () => {
     }
   ]
   return (
-    <SectionProjeto id="projetos" className="container">
-      <h2>Projetos</h2>
-      <ul>
-        {ProjetosList.map((project) => (
-          <li key={project.id}>
-            <Projeto
-              image={project.image}
-              titulo={project.titulo}
-              descricao={project.descricao}
-              tecnologias={project.tecnologia}
-              deploy={project.deploy}
-              github={project.github}
-            />
-          </li>
-        ))}
-      </ul>
-    </SectionProjeto>
+    <>
+      <Element name="projetos" className="projetos">
+        <SectionProjeto id="projetos" className="container">
+          <h2>Projetos</h2>
+          <ul>
+            {ProjetosList.map((project) => (
+              <li key={project.id}>
+                <Projeto
+                  image={project.image}
+                  titulo={project.titulo}
+                  descricao={project.descricao}
+                  tecnologias={project.tecnologia}
+                  deploy={project.deploy}
+                  github={project.github}
+                />
+              </li>
+            ))}
+          </ul>
+        </SectionProjeto>
+      </Element>
+    </>
   )
 }
 export default Projetos

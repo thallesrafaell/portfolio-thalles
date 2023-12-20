@@ -31,6 +31,7 @@ export const GlobalCSS = createGlobalStyle`
       width: 100%;
       margin: 0 auto;
     }
+
   }
 `
 

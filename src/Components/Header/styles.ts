@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Cores } from '../../styles'
+import { Link } from 'react-scroll'
 
 export const HeaderBg = styled.div`
   position: sticky;
@@ -33,8 +34,7 @@ export const Menu = styled.ul`
     font-size: 18px;
     transition-duration: 0.4s;
 
-    a,
-    a.active {
+    a {
       font-size: 18px;
       transition-duration: 0.4s;
       color: ${Cores.branco};
@@ -57,5 +57,19 @@ export const Redes = styled.div`
       widht: 24px;
       height: 24px;
     }
+  }
+`
+export const LinkScroll = styled(Link)`
+  font-size: 18px;
+  transition-duration: 0.4s;
+  color: ${Cores.branco};
+
+  &:hover {
+    color: ${Cores.azul};
+    transition-duration: 0.4s;
+  }
+
+  &.active {
+    color: ${Cores.azul};
   }
 `

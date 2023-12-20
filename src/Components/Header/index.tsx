@@ -1,4 +1,4 @@
-import { HeaderBg, HeaderContent, Menu, Redes } from './styles'
+import { HeaderBg, HeaderContent, Menu, Redes, LinkScroll } from './styles'
 import linkedin from '../../assets/images/linkedin.png'
 import github from '../../assets/images/github.png'
 import whats from '../../assets/images/whattsapp.png'
@@ -30,13 +30,52 @@ const Header = () => {
         <nav id="navigate">
           <Menu>
             <li>
-              <a href="#sobre">Sobre mim</a>
+              <LinkScroll
+                to="home"
+                activeClass="active"
+                className="home"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Início
+              </LinkScroll>
             </li>
             <li>
-              <a href="#projetos">Projetos</a>
+              <LinkScroll
+                to="sobre"
+                activeClass="active"
+                className="sobre"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Sobre mim
+              </LinkScroll>
             </li>
             <li>
-              <a href="#skill">Minhas Skiils</a>
+              <LinkScroll
+                to="projetos"
+                activeClass="active"
+                className="projetos"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Projetos
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                to="skill"
+                activeClass="active"
+                className="skill"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                Minhas Skiils
+              </LinkScroll>
             </li>
           </Menu>
         </nav>
