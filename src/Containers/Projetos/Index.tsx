@@ -52,16 +52,7 @@ const Projetos = () => {
       deploy: 'https://thalles-clone-disneyplus.vercel.app/',
       github: 'https://github.com/thallesrafaell/clone-disneyplus'
     },
-    {
-      id: 5,
-      image: calcMedia,
-      titulo: 'Calculadora de Médias',
-      descricao:
-        'Elaborei uma Calculadora de Médias com HTML, CSS e JavaScript, criando uma interface interativa e descomplicada. Destaco-me na implementação de funcionalidades dinâmicas para facilitar o cálculo preciso, proporcionando uma experiência intuitiva e eficiente aos usuários.',
-      tecnologia: [html, css, js],
-      deploy: 'https://thalles-calc-media.vercel.app/',
-      github: 'https://github.com/thallesrafaell/CalcMedia'
-    },
+
     {
       id: 4,
       image: restaurante,
