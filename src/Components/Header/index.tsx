@@ -36,7 +36,7 @@ const Header = () => {
                 className="home"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={100}
               >
                 Início
               </LinkScroll>
@@ -55,18 +55,6 @@ const Header = () => {
             </li>
             <li>
               <LinkScroll
-                to="projetos"
-                activeClass="active"
-                className="projetos"
-                spy={true}
-                smooth={true}
-                duration={500}
-              >
-                Projetos
-              </LinkScroll>
-            </li>
-            <li>
-              <LinkScroll
                 to="skill"
                 activeClass="active"
                 className="skill"
@@ -75,6 +63,18 @@ const Header = () => {
                 duration={500}
               >
                 Minhas Skiils
+              </LinkScroll>
+            </li>
+            <li>
+              <LinkScroll
+                to="projetos"
+                activeClass="active"
+                className="projetos"
+                spy={true}
+                smooth={true}
+                duration={100}
+              >
+                Projetos
               </LinkScroll>
             </li>
           </Menu>

@@ -4,8 +4,7 @@ import { Cores } from '../../styles'
 export const SobreContent = styled.div`
   display: flex;
   align-items: center;
-  padding: 100px 0;
-
+  padding-top: 250px;
   > img {
     width: 385px;
     height: 385px;

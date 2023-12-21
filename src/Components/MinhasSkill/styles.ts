@@ -6,8 +6,8 @@ export const SkillContent = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 100px;
-
+  padding-top: 250px;
+  height: 300px;
   h2 {
     font-size: 24px;
     font-weight: bold;
@@ -27,6 +27,8 @@ export const Skills = styled.div`
     border-radius: 4px;
 
     img {
+      width: 50px;
+      height: 50px;
       border-radius: 4px;
     }
 

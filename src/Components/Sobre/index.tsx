@@ -10,8 +10,8 @@ const Sobre = () => {
     'https://drive.google.com/file/d/1rfXoKMo1ZlCLaSd6zBfxE4QdKz_ER7my/view?usp=sharing'
   return (
     <Element name="sobre" className="sobre">
-      <SobreContent id="sobre" className="container">
-        <img src={perfil} alt="foto Thalles" />
+      <SobreContent id="sobre" className="container sobre-animate">
+        <img className="foto" src={perfil} alt="foto Thalles" />
         <Details>
           <h2>Sobre Mim</h2>
           <Span>Santa Viória, Minas Gerais</Span>

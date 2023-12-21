@@ -6,6 +6,7 @@ export const HeaderBg = styled.div`
   position: sticky;
   top: 0;
   background-color: ${Cores.cinzaEscuro};
+  z-index: 1;
 `
 
 export const HeaderContent = styled.header`
@@ -56,6 +57,12 @@ export const Redes = styled.div`
     img {
       widht: 24px;
       height: 24px;
+      transition-duration: 0.4s;
+
+      &:hover {
+        transform: scale(1.2);
+        transition-duration: 0.4s;
+      }
     }
   }
 `
@@ -63,6 +70,7 @@ export const LinkScroll = styled(Link)`
   font-size: 18px;
   transition-duration: 0.4s;
   color: ${Cores.branco};
+  cursor: pointer;
 
   &:hover {
     color: ${Cores.azul};

@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const SectionProjeto = styled.section`
-  padding: 100px 0;
+  padding: 150px 0;
 
   h2 {
     font-size: 24px;
