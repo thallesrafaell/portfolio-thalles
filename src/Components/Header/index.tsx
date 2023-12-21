@@ -8,9 +8,11 @@ const Header = () => {
   return (
     <HeaderBg>
       <HeaderContent className="container">
-        <h2>
-          &lt;<span>/TR</span>&gt;
-        </h2>
+        <a href="https://thallesrafael.dev">
+          <h2>
+            &lt;<span>/TR</span>&gt;
+          </h2>
+        </a>
 
         <Redes>
           <a href="https://linkedin.com/in/thallesrafael">
@@ -48,7 +50,7 @@ const Header = () => {
                 className="sobre"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={100}
               >
                 Sobre mim
               </LinkScroll>
@@ -60,7 +62,7 @@ const Header = () => {
                 className="skill"
                 spy={true}
                 smooth={true}
-                duration={500}
+                duration={100}
               >
                 Minhas Skiils
               </LinkScroll>
