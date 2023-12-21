@@ -27,7 +27,7 @@ const Projetos = () => {
       image: eplay,
       titulo: 'E-play',
       descricao:
-        'NAo criar o E-Play, usei React e TypeScript para desenvolver uma aplicação com design responsivo. Destaquei-me ao implementar componentes estilizados com Styled Components. Gerenciei o estado com Redux, garantindo eficiência e escalabilidade. Adicionalmente, implementei testes automatizados com Cypress.',
+        'Ao criar o E-Play, usei React e TypeScript para desenvolver uma aplicação com design responsivo. Destaquei-me ao implementar componentes estilizados com Styled Components. Gerenciei o estado com Redux, garantindo eficiência e escalabilidade. Adicionalmente, implementei testes automatizados com Cypress.',
       tecnologia: [html, css, react, typescript, styled, redux, cypress],
       deploy: 'https://eplay-xi.vercel.app/',
       github: 'https://github.com/thallesrafaell/eplay'
@@ -52,7 +52,6 @@ const Projetos = () => {
       deploy: 'https://thalles-clone-disneyplus.vercel.app/',
       github: 'https://github.com/thallesrafaell/clone-disneyplus'
     },
-
     {
       id: 4,
       image: restaurante,
