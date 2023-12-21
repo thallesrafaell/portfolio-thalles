@@ -30,8 +30,8 @@ const Skill = () => {
         <h2>Minhas Skills</h2>
         <Skills>
           {tecnologias.map((tec) => (
-            <div key={tec.nome}>
-              <img src={tec.image} alt={tec.nome} title={tec.nome} />
+            <div key={tec.nome} title={tec.nome}>
+              <img src={tec.image} alt={tec.nome} />
             </div>
           ))}
         </Skills>

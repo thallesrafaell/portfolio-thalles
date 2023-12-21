@@ -24,36 +24,26 @@ const Projetos = () => {
   const ProjetosList: Project[] = [
     {
       id: 1,
-      image: gamesShop,
-      titulo: 'Games Shop',
+      image: eplay,
+      titulo: 'E-play',
       descricao:
-        'Durante o projeto, criei uma página com HTML e CSS, destacando-me na construção e design da loja online. Minha dedicação refletiu-se na meticulosa estruturação e estilização da plataforma, evidenciando minha proficiência.',
-      tecnologia: [html, css],
-      deploy: 'https://games-shop-jet.vercel.app',
-      github: 'https://github.com/thallesrafaell/games-shop'
+        'NAo criar o E-Play, usei React e TypeScript para desenvolver uma aplicação com design responsivo. Destaquei-me ao implementar componentes estilizados com Styled Components. Gerenciei o estado com Redux, garantindo eficiência e escalabilidade. Adicionalmente, implementei testes automatizados com Cypress.',
+      tecnologia: [html, css, react, typescript, styled, redux, cypress],
+      deploy: 'https://eplay-xi.vercel.app/',
+      github: 'https://github.com/thallesrafaell/eplay'
     },
     {
       id: 2,
-      image: calcMedia,
-      titulo: 'Calculadora de Médias',
+      image: todo,
+      titulo: 'Todo List',
       descricao:
-        'Elaborei uma Calculadora de Médias com HTML, CSS e JavaScript, criando uma interface interativa e descomplicada. Destaco-me na implementação de funcionalidades dinâmicas para facilitar o cálculo preciso, proporcionando uma experiência intuitiva e eficiente aos usuários.',
-      tecnologia: [html, css, js],
-      deploy: 'https://thalles-calc-media.vercel.app/',
-      github: 'https://github.com/thallesrafaell/CalcMedia'
+        'No desenvolvimento do Todo List. Utilizando React, TypeScript, Styled Components e Redux, fiz implementação de componentes, estilos e lógica de gerenciamento de estado. Este projeto reflete minha habilidade na construção de aplicações dinâmicas e eficientes com as tecnologias mencionadas.',
+      tecnologia: [html, css, react, typescript, styled, redux],
+      deploy: 'https://thalles-todo-list-react-redux.vercel.app/',
+      github: 'https://github.com/thallesrafaell/todo-list-react-redux'
     },
     {
       id: 3,
-      image: restaurante,
-      titulo: 'Restaurante',
-      descricao:
-        'No projeto Restaurante, destaquei-me na construção da interface com HTML, CSS e Bootstrap para uma experiência responsiva. Aprimorei a lógica dinâmica com JavaScript, evidenciando competência em criar interfaces atrativas e eficazes.',
-      tecnologia: [html, css, bootstrap],
-      deploy: 'https://projeto-restaurante-pink.vercel.app/',
-      github: 'https://github.com/thallesrafaell/projetoRestaurante'
-    },
-    {
-      id: 4,
       image: disney,
       titulo: 'Clone do Disney+',
       descricao:
@@ -64,23 +54,43 @@ const Projetos = () => {
     },
     {
       id: 5,
-      image: todo,
-      titulo: 'Todo List',
+      image: calcMedia,
+      titulo: 'Calculadora de Médias',
       descricao:
-        'No desenvolvimento do Todo List. Utilizando React, TypeScript, Styled Components e Redux, fiz implementação de componentes, estilos e lógica de gerenciamento de estado. Este projeto reflete minha habilidade na construção de aplicações dinâmicas e eficientes com as tecnologias mencionadas.',
-      tecnologia: [html, css, react, typescript, styled, redux],
-      deploy: 'https://thalles-todo-list-react-redux.vercel.app/',
-      github: 'https://github.com/thallesrafaell/todo-list-react-redux'
+        'Elaborei uma Calculadora de Médias com HTML, CSS e JavaScript, criando uma interface interativa e descomplicada. Destaco-me na implementação de funcionalidades dinâmicas para facilitar o cálculo preciso, proporcionando uma experiência intuitiva e eficiente aos usuários.',
+      tecnologia: [html, css, js],
+      deploy: 'https://thalles-calc-media.vercel.app/',
+      github: 'https://github.com/thallesrafaell/CalcMedia'
+    },
+    {
+      id: 4,
+      image: restaurante,
+      titulo: 'Restaurante',
+      descricao:
+        'No projeto Restaurante, destaquei-me na construção da interface com HTML, CSS e Bootstrap para uma experiência responsiva. Aprimorei a lógica dinâmica com JavaScript, evidenciando competência em criar interfaces atrativas e eficazes.',
+      tecnologia: [html, css, bootstrap],
+      deploy: 'https://projeto-restaurante-pink.vercel.app/',
+      github: 'https://github.com/thallesrafaell/projetoRestaurante'
+    },
+    {
+      id: 5,
+      image: calcMedia,
+      titulo: 'Calculadora de Médias',
+      descricao:
+        'Elaborei uma Calculadora de Médias com HTML, CSS e JavaScript, criando uma interface interativa e descomplicada. Destaco-me na implementação de funcionalidades dinâmicas para facilitar o cálculo preciso, proporcionando uma experiência intuitiva e eficiente aos usuários.',
+      tecnologia: [html, css, js],
+      deploy: 'https://thalles-calc-media.vercel.app/',
+      github: 'https://github.com/thallesrafaell/CalcMedia'
     },
     {
       id: 6,
-      image: eplay,
-      titulo: 'E-play',
+      image: gamesShop,
+      titulo: 'Games Shop',
       descricao:
-        'NAo criar o E-Play, usei React e TypeScript para desenvolver uma aplicação com design responsivo. Destaquei-me ao implementar componentes estilizados com Styled Components. Gerenciei o estado com Redux, garantindo eficiência e escalabilidade. Adicionalmente, implementei testes automatizados com Cypress.',
-      tecnologia: [html, css, react, typescript, styled, redux, cypress],
-      deploy: 'https://eplay-xi.vercel.app/',
-      github: 'https://github.com/thallesrafaell/eplay'
+        'Durante o projeto, criei uma página com HTML e CSS, destacando-me na construção e design da loja online. Minha dedicação refletiu-se na meticulosa estruturação e estilização da plataforma, evidenciando minha proficiência.',
+      tecnologia: [html, css],
+      deploy: 'https://games-shop-jet.vercel.app',
+      github: 'https://github.com/thallesrafaell/games-shop'
     }
   ]
   return (
