@@ -15,16 +15,36 @@ const Header = () => {
         </a>
 
         <Redes>
-          <a href="https://linkedin.com/in/thallesrafael">
+          <a
+            target="_blank"
+            href="https://linkedin.com/in/thallesrafael"
+            rel="noreferrer"
+            title="Linkedin"
+          >
             <img src={linkedin} alt="Linkedin" />
           </a>
-          <a href="https://github.com/thallesrafaell">
+          <a
+            target="_blank"
+            href="https://github.com/thallesrafaell"
+            rel="noreferrer"
+            title="Github"
+          >
             <img src={github} alt="" />
           </a>
-          <a href="https://api.whatsapp.com/send?phone=5534997653710">
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=5534997653710"
+            rel="noreferrer"
+            title="Whatsapp"
+          >
             <img src={whats} alt="Whatsapp" />
           </a>
-          <a href="mailto:thallesrafaell@outlook.com">
+          <a
+            target="_blank"
+            href="mailto:thallesrafaell@outlook.com"
+            rel="noreferrer"
+            title="E-mail"
+          >
             <img src={mail} alt="E-mail" />
           </a>
         </Redes>
