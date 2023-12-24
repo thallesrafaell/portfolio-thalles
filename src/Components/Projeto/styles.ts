@@ -27,11 +27,10 @@ export const Card = styled.div`
     @media screen and (max-width: ${breakPoints.tablet}) {
       display: none;
     }
-
-    &:hover {
-      box-shadow: 0px 0px 17px 2px rgba(43, 83, 224, 0.69);
-      transition-duration: 0.4s;
-    }
+  }
+  &:hover {
+    box-shadow: 0px 0px 17px 2px rgba(43, 83, 224, 0.69);
+    transition-duration: 0.4s;
   }
 `
 export const Tecnologias = styled.div`
