@@ -62,7 +62,7 @@ export const Skills = styled.div`
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
-  @media screen and (max-width: 1023px) {
+  @media screen and(min-width: ${breakPoints.tablet}) and(max-width: 1023px) {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
