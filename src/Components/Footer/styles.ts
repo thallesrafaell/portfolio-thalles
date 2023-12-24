@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { Cores, breakPoints } from '../../styles'
 
 export const FooterBackground = styled.footer`
   background-color: ${Cores.cinzaMedio};
@@ -9,12 +9,22 @@ export const FooterBackground = styled.footer`
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen and (max-width: ${breakPoints.tablet}) {
+      justify-content: center;
+      flex-direction: column;
+      gap: 10px;
+    }
   }
 
   p {
     font-size: 16px;
     text-align: center;
     color: ${Cores.branco};
+
+    @media screen and (max-width: ${breakPoints.tablet}) {
+      font-size: 15px;
+    }
 
     span {
       color: ${Cores.azul};

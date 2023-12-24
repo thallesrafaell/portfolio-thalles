@@ -26,7 +26,7 @@ const Skill = () => {
   ]
   return (
     <Element name="skill" className="skill">
-      <SkillContent className="container">
+      <SkillContent id="skill" className="container">
         <h2>Minhas Skills</h2>
         <Skills>
           {tecnologias.map((tec) => (

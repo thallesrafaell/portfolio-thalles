@@ -1,11 +1,12 @@
 import styled from 'styled-components'
-import { Cores } from '../../styles'
+import { Cores, breakPoints } from '../../styles'
 
 export const Section = styled.section`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: calc(100vh - 70px);
+  height: 600px;
+  padding: 54px 0;
   opacity: 0;
   transition-duration: 0.4s;
 
@@ -13,6 +14,13 @@ export const Section = styled.section`
     width: 500px;
     transform: translatex(860px);
     transition-duration: 0.15s;
+  }
+  @media screen and (max-width: ${breakPoints.tablet}) {
+    > img {
+      display: none;
+    }
+    height: 200px;
+    padding-top: 130px;
   }
 `
 export const Details = styled.div`
@@ -39,5 +47,13 @@ export const Details = styled.div`
     column-gap: 16px;
     transition-duration: 0.15s;
     transform: translatex(-700px);
+  }
+
+  @media screen and (max-width: ${breakPoints.tablet}) {
+    height: 250px;
+    p {
+      font-size: 18px;
+      margin: 0 0 15px;
+    }
   }
 `

@@ -7,14 +7,14 @@ import Projetos from '../../Containers/Projetos/Index'
 
 const Home = () => {
   return (
-    <>
+    <div data-bs-spy="scroll" data-bs-target="navigate">
       <Header />
       <Hero />
       <Sobre />
-      <Skill />
       <Projetos />
+      <Skill />
       <Footer />
-    </>
+    </div>
   )
 }
 export default Home

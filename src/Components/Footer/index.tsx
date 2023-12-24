@@ -13,19 +13,16 @@ const Footer = () => {
         </p>
         <MinhasRedes className="minhasredes">
           <a href="https://linkedin.com/in/thallesrafael">
-            <img src={linkedin} alt="Linkedin" /> Linkedin
+            <img src={linkedin} alt="Linkedin" />
           </a>
           <a href="https://github.com/thallesrafaell">
             <img src={github} alt="" />
-            Github
           </a>
           <a href="https://api.whatsapp.com/send?phone=5534997653710">
             <img src={whats} alt="Whatsapp" />
-            Whatsapp
           </a>
           <a href="mailto:thallesrafaell@outlook.com">
             <img src={mail} alt="E-mail" />
-            E-mail
           </a>
         </MinhasRedes>
       </div>

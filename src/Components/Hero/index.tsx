@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <Element name="home" className="home">
-      <Section className="container anime">
+      <Section id="home" className="container anime">
         <Details className="details">
           <h1 className="titulo">Olá, sou Thalles Rafael</h1>
           <p className="profissao">Desenvolvedor Full-Stack Java</p>
